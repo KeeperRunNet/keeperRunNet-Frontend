@@ -148,10 +148,10 @@ Base-level, stateless UI primitives. Use these directly or compose them into mol
 #### Using Toast Notifications
 
 ```tsx
-import { useGlobalToast } from '@/hooks/useToast'
+import { useToast } from '@/hooks/useToast'
 
 export default function MyComponent() {
-  const toast = useGlobalToast()
+  const toast = useToast()
 
   return (
     <button onClick={() => toast.success('Job successfully registered!')}>
@@ -204,27 +204,26 @@ Full page sections wired to on-chain data.
 
 ## Roadmap
 
-### Completed
+### About to start
 
-- [x] Landing page with protocol metrics
-- [x] Dark/Light mode theming
-- [x] Toast notification system
-- [x] User dashboard with sidebar navigation
-- [x] Multi-step job creation wizard
-- [x] Responsive mobile-first design
-
-### In Progress
-
+- [ ] Landing page with protocol metrics
+- [ ] Dark/Light mode theming
+- [ ] Toast notification system
+- [ ] User dashboard with sidebar navigation
+- [ ] Multi-step job creation wizard
+- [ ] Responsive mobile-first design
+<!-- ### In Progress -->
 - [ ] Wallet Integration [#21] — Full Freighter API integration
 - [ ] KeeperNet SDK [#16] — Connect frontend to `keeper-net-sdk` npm package
 - [ ] Relayer WebSockets [#10] — Real-time execution log streaming
 
 ### Planned
 
-- [ ] Node UI [#15] — Dashboard for users running their own local relayer nodes
-- [ ] Advanced Triggers [#34] — UI support for cross-contract state queries
-- [ ] i18n Support [#8] — Multi-language support via `next-intl`
-
+- [ ] Node UI — Dashboard for users running their own local relayer nodes
+- [ ] Advanced Triggers — UI support for cross-contract state queries
+- [ ] i18n Support — Multi-language support via `next-intl`
+- [ ] Testnet interactions
+- [ ] Multiple chains support
 ---
 
 ## Contributing
