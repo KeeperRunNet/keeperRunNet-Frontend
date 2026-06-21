@@ -1,6 +1,6 @@
-# KeeperNet Frontend
+# KeeperRunNet Frontend
 
-The decentralized UI for the KeeperNet automation and relayer protocol.
+The decentralized UI for the KeeperRunNet automation and relayer protocol.
 
 KeeperNet Frontend is the **Next.js** web application that gives developers and users a seamless interface for creating automated smart contract triggers, tracking job execution, managing keeper nodes, and monitoring relayer health — all powered by **Soroban smart contracts** on the **Stellar network**.
 
