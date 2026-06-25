@@ -1,0 +1,2 @@
+# Stop the commit if strict type checking or linting fails
+pnpm tsc --noEmit && pnpm lint
